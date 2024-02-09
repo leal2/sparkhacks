@@ -1,19 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="loginstyle.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="topbar">topbar
-        <div class="logoarea">logo</div>
-        <div class="logintopbar">Log In</div>
-        <div class="dropdown">drop down</div>
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1B2430;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background-color: #1B2430;
+    box-shadow: 0px 1px 5px black;
+    border: 1px solid white;
+}
+.logoarea{
+    width: 50%;
+    border: 1px rgb(239, 101, 101) solid;
+}
+.rightitems{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    border: 1px rgb(101, 204, 239) solid;
 
-    </div>
-    <div class="middlesection">middlesection</div>
-    <div class="bottomsection">bottomsection</div>
-</body>
-</html>
+}
+.topbarlogin{
+    justify-content: end;
+}
+.middlesection{
+    height: 50vh;
+    background-color: #1B2430;
+    border: solid white;
+}
+.bottomsection{
+    background-color:#1B2430;
+    border: 1px solid white;
+    height: 30vh;
+}
+
